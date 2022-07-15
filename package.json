@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "start:breeder-app": "nx run breeder-app:serve:production",
+    "start:breeder-app": "nx run breeder-app:serve:production -p $PORT",
     "build": "nx build breeder-app && nx build guardian-app",
     "test": "nx test"
   },

@@ -30,8 +30,7 @@
         },
         "production": {
           "buildTarget": "breeder-app:build:production",
-          "dev": false,
-          "port": 3000
+          "dev": false
         }
       }
     },
