@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
+    "start:breeder-app": "nx run breeder-app:serve:production",
+    "build": "nx build breeder-app && nx build guardian-app",
     "test": "nx test"
   },
   "private": true,
