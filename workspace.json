@@ -3,6 +3,9 @@
   "version": 2,
   "projects": {
     "breeder-app": "apps/breeder-app",
-    "breeder-app-e2e": "apps/breeder-app-e2e"
+    "breeder-app-e2e": "apps/breeder-app-e2e",
+    "guardian-app": "apps/guardian-app",
+    "guardian-app-e2e": "apps/guardian-app-e2e",
+    "my-new-lib": "libs/my-new-lib"
   }
 }
