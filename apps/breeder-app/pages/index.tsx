@@ -19,7 +19,7 @@ export function Index() {
             <h1>
               <span> Hello there, </span>
               Welcome breeder-app 👋
-              <h1>The value of customKey is: {process.env.customKey}</h1>
+              <h1>The value of customKey is: {process.env.KEY}</h1>
             </h1>
           </div>
 
