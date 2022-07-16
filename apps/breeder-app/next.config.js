@@ -9,10 +9,10 @@ const nextConfig = {
     // Set this to true if you would like to to use SVGR
     // See: https://github.com/gregberge/svgr
     svgr: false,
-    env: {
-      customKey: 'my-value'
-    }
   },
+  env: {
+    customKey: 'my-value'
+  }
 };
 
 module.exports = withNx(nextConfig);
